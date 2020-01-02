@@ -322,7 +322,7 @@ namespace OLED {
         command(SSD1306_SEGREMAP | 0x1);
         command(SSD1306_COMSCANDEC);
         command(SSD1306_SETCOMPINS);
-        command(0x12);
+        command(0x02);
         command(SSD1306_SETCONTRAST);
         command(0xCF);
         command(SSD1306_SETPRECHARGE);
